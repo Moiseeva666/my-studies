@@ -1,0 +1,60 @@
+body {
+    background-color: lightblue;
+}
+h1 {
+    color: darkblue;
+}
+p {
+    font-size: 20px;
+}
+a {
+    color: royalblue;
+    text-decoration: none;
+}
+a:hover {
+    color: skyblue;
+}
+.card {
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s;
+}
+.card:hover {
+    transform: translateY(-5px);
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: white;
+    border-radius: 15px;
+    margin: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+    color: #1E3A8A;
+}
+nav a {
+    margin-left: 20px;
+}
+.card-container {
+    display: flex;
+    gap: 20px;
+}
+.exam {
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s;
+}
+.exam:hover {
+    transform: translateY(-5px);
+}
